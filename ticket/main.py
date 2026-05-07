@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("TOKEN")
-GUILD_ID = int(os.getenv("GUILD_ID"))
+TOKEN = os.getenv("MTUwMTY2MzQ3NjI3ODM2NjM3OQ.Ga8s7e.qfexPvZHRcHG1649b53wYU9psXqpyOYb-G0560")
+GUILD_ID = int(os.getenv("1404265311435493477"))
 
 intents = discord.Intents.default()
 intents.guilds = True
